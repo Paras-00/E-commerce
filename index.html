@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plenum | Modern Furniture Collections</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a href="#" class="logo">Plenum</a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#">Articles</a></li>
+                </ul>
+            </nav>
+            <button class="menu-toggle" id="menuToggle">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <img src="4240885.jpg" alt="Luxury Living Room" class="hero-img">
+            <div class="hero-overlay"></div>
+            <div class="hero-content reveal">
+                <h1>Elevate Your Living Space</h1>
+                <p>Discover our curated collection of modern, sustainable, and high-end furniture designed for the
+                    contemporary home.</p>
+                <a href="#products" class="btn-primary">Shop the Collection</a>
+            </div>
+        </section>
+
+        <section id="categories">
+            <div class="section-header reveal">
+                <h2>Shop by Category</h2>
+                <p>Find the perfect pieces for every corner of your home.</p>
+            </div>
+
+            <div class="category-filters reveal">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="sofa">Sofa</button>
+                <button class="filter-btn" data-filter="chair">Chair</button>
+                <button class="filter-btn" data-filter="bed">Bed</button>
+                <button class="filter-btn" data-filter="table">Table</button>
+                <button class="filter-btn" data-filter="wardrobe">Wardrobe</button>
+            </div>
+
+            <div class="category-grid reveal">
+                <div class="category-card" data-filter="bed">
+                    <img src="https://imgs.search.brave.com/7x60EQADJUodT838KBuKnrxL65W2Z803wGmDCn5JKHY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/aW5zYXJhZi5jb20v/Y2RuL3Nob3AvcHJv/ZHVjdHMvMTJfYTIx/OGY4ODctM2MzOS00/ZWQ4LWFjNmQtNjEz/NzZjNGExN2Q2XzEw/MjR4MTAyNC5qcGVn/P3Y9MTU5MjgzNzcz/Nw"
+                        alt="Bed">
+                    <div class="category-info">
+                        <h3>Beds</h3>
+                    </div>
+                </div>
+                <div class="category-card" data-filter="sofa">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/048/397/932/small_2x/modern-white-sofa-with-cushions-on-gray-background-vector.jpg"
+                        alt="Sofa">
+                    <div class="category-info">
+                        <h3>Sofas</h3>
+                    </div>
+                </div>
+                <div class="category-card" data-filter="table">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/026/126/473/small_2x/3d-table-for-object-presentation-empty-dark-top-table-on-gray-background-vector.jpg"
+                        alt="Table">
+                    <div class="category-info">
+                        <h3>Tables</h3>
+                    </div>
+                </div>
+                <div class="category-card" data-filter="chair">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/000/478/244/small_2x/1604.i040.006.P.m003.c30.chair_realistic.jpg"
+                        alt="Chair">
+                    <div class="category-info">
+                        <h3>Chairs</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <div class="section-header reveal">
+                <h2>Our Featured Products</h2>
+                <p>Handpicked selections for your unique style.</p>
+            </div>
+
+            <div class="product-grid reveal">
+                <div class="product-card" data-category="sofa">
+                    <div class="product-img-wrapper">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/048/397/932/small_2x/modern-white-sofa-with-cushions-on-gray-background-vector.jpg"
+                            alt="Sofa">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Sofa</p>
+                        <h3>Velvet Comfort Sofa</h3>
+                        <button class="buy-now-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="table">
+                    <div class="product-img-wrapper">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/026/126/473/small_2x/3d-table-for-object-presentation-empty-dark-top-table-on-gray-background-vector.jpg"
+                            alt="Dining Table">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Table</p>
+                        <h3>Oakwood Dining Table</h3>
+                        <button class="buy-now-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="bed">
+                    <div class="product-img-wrapper">
+                        <img src="https://imgs.search.brave.com/7x60EQADJUodT838KBuKnrxL65W2Z803wGmDCn5JKHY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93d3cu/aW5zYXJhZi5jb20v/Y2RuL3Nob3AvcHJv/ZHVjdHMvMTJfYTIx/OGY4ODctM2MzOS00/ZWQ4LWFjNmQtNjEz/NzZjNGExN2Q2XzEw/MjR4MTAyNC5qcGVn/P3Y9MTU5MjgzNzcz/Nw"
+                            alt="Bed">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Bed</p>
+                        <h3>Cloud Sleep Platform Bed</h3>
+                        <button class="buy-now-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="chair">
+                    <div class="product-img-wrapper">
+                        <img src="https://static.vecteezy.com/system/resources/thumbnails/000/478/244/small_2x/1604.i040.006.P.m003.c30.chair_realistic.jpg"
+                            alt="Chair">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Chair</p>
+                        <h3>ErgoFlex Lounge Chair</h3>
+                        <button class="buy-now-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="wardrobe">
+                    <div class="product-img-wrapper">
+                        <img src="https://interio.com/media/catalog/product/cache/e77dd1bdd4651df97167c3d88b8d3935/3/0/30161803sd00315_a2_1920x1080.jpg"
+                            alt="Wardrobe">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Wardrobe</p>
+                        <h3>Minimalist Sliding Wardrobe</h3>
+                        <button class="buy-now-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card" data-category="table">
+                    <div class="product-img-wrapper">
+                        <img src="https://interio.com/media/catalog/product/cache/492d93e82bd714043910b2e2742f7e32/t/a/tabchr012_feature_a2_413_440.jpg"
+                            alt="Dining Table">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Table</p>
+                        <h3>Marble Top Dining Set</h3>
+                        <button class="buy-now-btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <span class="footer-logo">Plenum</span>
+                <p>Creating beautiful spaces with sustainable, high-quality furniture designs since 2026.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#">Articles</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul class="footer-links">
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <p>Subscribe to receive updates and special offers.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Plenum Furniture. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
